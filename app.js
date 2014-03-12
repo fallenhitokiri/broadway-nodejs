@@ -62,8 +62,10 @@ function updateLocation(data) {
         "xaxis": data.xaxis,
         "yaxis": data.yaxis
     }
-
-    office.emit("update", coordinates);
+    
+    if (office != false) {
+        office.emit("update", coordinates);
+    }
 
     if (debug) {
         coordinates["update"] = lastUpdate;
