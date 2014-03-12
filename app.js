@@ -44,12 +44,12 @@ app.post('/update', function(request, response) {
 
 app.get("/status", function(request, response) {
     var coordinates = {
-        "xaxis": data.xaxis,
-        "yaxis": data.yaxis,
+        "xaxis": xaxis,
+        "yaxis": yaxis,
         "update": lastUpdate
     }
 
-    response.end(coordinates);
+    response.send(coordinates);
 });
 
 
