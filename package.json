@@ -2,7 +2,7 @@
   "name": "vIH",
   "description": "control Jolvoy throgh this serivce",
   "version": "0.0.1",
-  "author": "Timo Zimmermann <timo@screamingatmyscreen.com>"
+  "author": "Timo Zimmermann <timo@screamingatmyscreen.com>",
   "private": true,
   "dependencies": {
       "socket.io": "0.9.16",
