@@ -8,6 +8,9 @@
       "socket.io": "0.9.16",
       "express": "3.4.8"
   },
+  "devDependencies": {
+      "socket.io-client": "0.9.16"
+  }
   "repository": "",
   "license": "BSD"
 }
