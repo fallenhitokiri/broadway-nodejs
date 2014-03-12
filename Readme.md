@@ -1,6 +1,6 @@
 # vIH
 
-Remote control Jolvoy.
+Remote control Jolvoy. vIH = "to move"
 
 ## Server
 
