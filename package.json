@@ -1,16 +1,19 @@
 {
-  "name": "vIH",
-  "description": "control Jolvoy throgh this serivce",
+  "name": "broadway",
+  "description": "proxy between broadway-ios-remote and broadway-ios-office",
   "version": "0.0.1",
   "author": "Timo Zimmermann <timo@screamingatmyscreen.com>",
-  "private": true,
   "dependencies": {
       "socket.io": "0.9.16",
       "express": "3.4.8"
   },
   "devDependencies": {
       "socket.io-client": "0.9.16"
-  }
-  "repository": "",
+  },
+  "keywords": [
+    "broadway",
+    "telepresence"
+  ],
+  "repository": "git://github.com/flightcar/broadway-nodejs",
   "license": "BSD"
 }
